@@ -1,0 +1,32 @@
+{
+  "version": "1.0",
+  "prompts": [
+    {
+      "id": "seed-1",
+      "title": "Structured Task Breakdown",
+      "prompt": "Break this task into clear steps with dependencies noted. For each step include: what needs to happen, what success looks like, and any risks or blockers.",
+      "category": "Product & Strategy",
+      "tags": ["planning", "tasks"],
+      "createdAt": "2026-02-23T02:03:03.101Z",
+      "useCount": 0
+    },
+    {
+      "id": "seed-2",
+      "title": "Code Review Request",
+      "prompt": "Review this code for: correctness, edge cases, performance issues, readability, and any security concerns. Be specific about line numbers and explain your reasoning.",
+      "category": "Code & Technical",
+      "tags": ["code", "review"],
+      "createdAt": "2026-02-23T02:03:03.101Z",
+      "useCount": 0
+    },
+    {
+      "id": "seed-3",
+      "title": "Exec-Ready Summary",
+      "prompt": "Summarise this for a senior executive. Lead with the key decision or action required. One paragraph max. No jargon, no fluff.",
+      "category": "Summarisation",
+      "tags": ["executive", "brief"],
+      "createdAt": "2026-02-23T02:03:03.101Z",
+      "useCount": 0
+    }
+  ]
+}
