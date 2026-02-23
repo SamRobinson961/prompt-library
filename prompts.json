@@ -135,6 +135,247 @@
       ],
       "createdAt": "2026-02-23T02:15:47.987Z",
       "useCount": 0
+    },
+    {
+      "id": "pm-1",
+      "title": "Jobs-to-be-Done Framework",
+      "prompt": "# jobs-to-be-done.md\n\n---\n## Jobs-to-be-Done Template\n\n### 1. Customer Jobs\n\n\n\n#### Functional Jobs:\n- [Suggest multiple, functional tasks customers need to perform].\n#### Social Jobs:\n- [Suggest multiple ways the customers wanta to be perceived socially].\n#### Emotional Jobs\n- [Suggest multiple, emotional states customers seek to achieve or avoid].\n\n### 2. Pains\n\n\n\n#### Challenges:\n- [Suggest multiple obstacles customers face].\n#### Costliness:\n- [Suggest multiple instances of what customers find too costly in terms of time, money, or effort].\n#### Common Mistakes:\n- [Suggest multiple examples of frequent errors customers make that could be prevented].\n#### Unresolved Problems:\n- [Suggest multiple problems not solved by current solutions].\n\n### 3. Gains\n\n\n\n#### Expectations:\n- [Suggest multiple instances of what could exceed customers' expectations of current solutions].\n#### Savings:\n- [Suggest multiple instances ways of savings in time, money, or effort that would delight customers].\n#### Adoption Factors:\n- [Suggest multiple factors that would increase the likelihood of adopting a solution].\n#### Life Improvement:\n- [Suggest multiple instances of how a solution could make customers' lives easier or more enjoyable].",
+      "category": "Product & Strategy",
+      "tags": [
+        "jtbd",
+        "customer research",
+        "framework",
+        "pains",
+        "gains"
+      ],
+      "createdAt": "2026-02-23T03:14:11.691Z",
+      "useCount": 0,
+      "source": "github.com/deanpeters/product-manager-prompts"
+    },
+    {
+      "id": "pm-2",
+      "title": "Positioning Statement Template",
+      "prompt": "# positioning-statement.md\n\n---\n## Positioning Statement Template\n\n\n\n### Value Proposition\n\n**For** [target customer/user (think persona)]\n- **that need** [statement of the user's underserved need (consider pains, gains, jobs to be done)]\n- [name of the product or service (if one is not provided, create a compelling product name)]\n- **is a** [definition of the product category]\n- **that** [statement of benefit to the user (focus on outcomes, not features)].\n\n### Differentiation Statement\n\n- **Unlike** [primary competitor or competitive area/market/arena],\n- [name of the product or service]\n- **provides** [how the product or service is uniquely differentiated (again, focus on outcomes, not features)].",
+      "category": "Product & Strategy",
+      "tags": [
+        "positioning",
+        "value proposition",
+        "messaging"
+      ],
+      "createdAt": "2026-02-23T03:14:11.691Z",
+      "useCount": 0,
+      "source": "github.com/deanpeters/product-manager-prompts"
+    },
+    {
+      "id": "pm-3",
+      "title": "User Story Template",
+      "prompt": "# user-story-prompt-template.md\n\n## Description:\nInspired by Mike Cohn's user story use case and the Gherkin Acceptance Criteria formats, this template is designed to help product managers and development teams create clear, concise user stories. It guides the formulation of user stories, ensuring they are structured to promote understanding and actionable outcomes. This template is particularly useful during Generative AI sessions, assuming enough product details, persona insights, positioning, and problem contexts have already been provided.\n\n## Usage Note:\nIt is ideal for use in Generative AI sessions where comprehensive background information (product details, personas, positioning, and problems) has already been established. This ensures that the user stories generated are grounded in the project's context and objectives.\n\nBefore using this template in a Generative AI session, ensure your session has the following context already in place:\n\n1. **Product Overview**: A detailed description of the product or feature for which the user story is being created.\n2. **Target User Persona**: Insights into who the user is, including their goals, needs, and pain points.\n3. **Product Goals**: The objectives that the product or feature aims to achieve.\n4. **Competitive Landscape**: An understanding of similar offerings in the market and how the product stands out.\n\nAfter ensuring the above context is provided, proceed with the following steps:\n\n1. Copy the User Story Format/Template section below.\n2. Enter the prompt: \"Based on the context provided, please create a user story titled 'Feature XYZ' using the following User Story Template, rendered as Markdown in a Code Block.\"\n3. Paste the User Story Format/Template into the session, replacing placeholder text with specific details related to 'Feature XYZ'.\n\nThis approach ensures that the user story generated is contextually rich, focused, and aligned with the product's objectives and user needs.\n\n## Attribution:\nCreated by D",
+      "category": "Product & Strategy",
+      "tags": [
+        "user stories",
+        "agile",
+        "requirements"
+      ],
+      "createdAt": "2026-02-23T03:14:11.691Z",
+      "useCount": 0,
+      "source": "github.com/deanpeters/product-manager-prompts"
+    },
+    {
+      "id": "pm-4",
+      "title": "Backlog Epic Hypothesis",
+      "prompt": "# backlog-epic-hypothesis.md\n\n---\n## Product Backlog Epic Template\n\n\n\n### If/Then Hypothesis\n\n**If we** [an action or a solution on behalf of the target persona]\n**for** [the target persona of the action or solution]\n**Then we will** [attain or achieve a desirable outcome or job-to-be-done for the target persona].\n\n### Tiny Acts of Discovery Experiments\n\n**We will test our assumption by:**\n* [experiment 1]\n* [experiment 2]\n* [add more experiments as necessary]\n\n### Validation Measures\n\n**We know our hypothesis is valid if within** [timeframe in days or weeks]\n**we observe:**\n* [desirable quantitative, measurable outcome]\n* [desirable qualitative measurable outcome]\n* [add more outcomes as necessary]",
+      "category": "Product & Strategy",
+      "tags": [
+        "backlog",
+        "epics",
+        "hypothesis"
+      ],
+      "createdAt": "2026-02-23T03:14:11.691Z",
+      "useCount": 0,
+      "source": "github.com/deanpeters/product-manager-prompts"
+    },
+    {
+      "id": "pm-5",
+      "title": "Customer Journey Mapping",
+      "prompt": "# customer-journey-mapping-prompt-template.md\n\n\n\n# Buyer Journey Map Prompt\n\n## Objective\nCreate a buyer journey map for your brand to identify areas for improvement and better understand customer motivations.\n\n## Instructions\n\n### Before you start:\n- [Identify key stakeholders from marketing, sales, customer service, and any other relevant department to involve in the creation of the customer journey map. Their insights and perspectives will be crucial in understanding the complete customer experience.]\n- [Develop detailed buyer personas that represent your ideal customers. Include demographics, psychographics, goals, challenges, and preferences to create a clear picture of who your customers are.]\n- [Outline the main stages of your brand's buying process, such as awareness, consideration, decision, service, and loyalty. These stages will form the foundation of your customer journey map.]\n- [List all the touchpoints where customers interact with your brand throughout their journey, including websites, social media, email, physical stores, customer service channels, and any other relevant points of contact.]\n\n### Steps to build your buyer journey map:\n1. Set clear objectives: [Define the primary goals you want to achieve by creating a customer journey map. Consider whether you want to identify areas for improvement, understand customer motivations, align your team's efforts, or any other specific objectives relevant to your brand.]\n2. Get to know your customers: [Gather data through a variety of methods, such as surveys, user testing, customer support interactions, and analytics. Aim to understand your customers' needs, preferences, and emotions at each stage of their journey.]\n3. Choose a buyer persona: [Select one buyer persona to focus on for each customer journey map. Creating separate maps for each persona will help you tailor your efforts to their specific needs and avoid confusion.]\n4. Match touchpoints to stages and actions: [Identify all the ways customers",
+      "category": "Research & Analysis",
+      "tags": [
+        "customer journey",
+        "CX",
+        "mapping"
+      ],
+      "createdAt": "2026-02-23T03:14:11.691Z",
+      "useCount": 0,
+      "source": "github.com/deanpeters/product-manager-prompts"
+    },
+    {
+      "id": "pm-6",
+      "title": "Problem Statement Framing Canvas",
+      "prompt": "# framing-the-problem-statement.md\n\n---\n## Problem Framing Canvas Template\n\n\n\n### Problem Framing Narrative\n\n\n\n**I am**: [Describe the key persona experiencing the problem, highlighting 3 to 4 key points about their interaction with the problem]\n- [Key pain point or characteristic about the persona's underserved need 1].\n- [Key pain point or characteristic about the persona's underserved need 2].\n- [Key pain point or characteristic about the persona's underserved need 3].\n\n**Trying to**: \n- [A single sentence that lists the desired outcomes the key persona cares most about].\n\n**But**: \n- [Describe the barriers preventing the persona from achieving the desired outcomes]\n- [Job-to-be-done or outcome obstruction 1].\n- [Job-to-be-done or outcome obstruction 2].\n- [Job-to-be-done or outcome obstruction 3].\n\n**Because**: \n- [Seek to describe the root cause of the problem or barrier empathetically].\n\n**Which makes me feel**: \n- [Describe the emotions felt from the key persona's perspective].\n\n### Context & Constraints \n\n\n\n- [Enumerate the context and constraints facing the persona(s), including geographic, technological, time-based, or demographic factors.]\n\n### Final Problem Statement\n\n\n\n- [Create a single, concise statement that provides a powerful and empathetic summary narrative of the problem to be shared with stakeholders, customers, engineering, UX, etc.]",
+      "category": "Product & Strategy",
+      "tags": [
+        "problem statement",
+        "framing",
+        "canvas"
+      ],
+      "createdAt": "2026-02-23T03:14:11.691Z",
+      "useCount": 0,
+      "source": "github.com/deanpeters/product-manager-prompts"
+    },
+    {
+      "id": "pm-7",
+      "title": "Proto Persona Profile",
+      "prompt": "# proto-persona-profile.md\n\n\n## Proto Persona Canvas\n\n### Name\n* [alliterative name of the persona]\n\n### Bio & Demographics\n* [multiple bullet points that include age, geography, social status, online presence, partner status, leisure activities, career status, etc.]\n\n### Quotes\n* [multiple bullet points of quotes by the persona that help us understand what they say, feel, and think]\n\n### Pains\n* [multiple bullet points on the pains the persona feels related to the case study narrative]\n\n### What is this Person Trying to Accomplish\n* [multiple bullet points on what the persona does or is trying to get done? What behaviors do we observe of the persona?]\n\n### Goals\n* [multiple bullet points on the persona's wants, needs, dreams]\n\n### Attitudes & Influences\n\n* **Decision Making Authority** - [identify if this person has decision-making authority to buy your solution?]\n* **Decision Influencers** - [who influences this person in their decision making?]\n* **Beliefs & Attitudes** - [enumerate beliefs and attitudes that impact the decisions they make]",
+      "category": "Research & Analysis",
+      "tags": [
+        "persona",
+        "user research",
+        "demographics"
+      ],
+      "createdAt": "2026-02-23T03:14:11.691Z",
+      "useCount": 0,
+      "source": "github.com/deanpeters/product-manager-prompts"
+    },
+    {
+      "id": "pm-8",
+      "title": "PESTEL Analysis",
+      "prompt": "# pestel-analysis-prompt-template.md\n\n\n# PESTEL Analysis Prompt Template\n\n## Overview\n\n- **Project/Product Name**: [The name of the project or product under analysis.]\n- **Analysis Purpose**: [The specific goal or reason for conducting this PESTEL analysis.]\n- **Analyst**: [The name of the person or team conducting the analysis.]\n- **Date**: [The date the analysis is performed.]\n\n## 1. Political Factors\n\n- **Government Policies**: [Identify and analyze how government policies could impact the project/product.]\n- **Political Stability**: [Assess the impact of the political stability in the regions relevant to the project/product.]\n- **Trade Regulations**: [Examine trade regulations and their potential effect on the project/product.]\n- **Taxation Policy**: [Analyze the taxation policies and their implications for the project/product.]\n\n## 2. Economic Factors\n\n- **Economic Growth**: [Evaluate the economic growth rates and their potential impact on the project/product.]\n- **Inflation Rate**: [Consider the inflation rates and their effect on pricing and costs.]\n- **Exchange Rates**: [Analyze how exchange rate fluctuations could affect the project/product.]\n- **Consumer Spending**: [Assess the level of consumer spending and its influence on the project/product.]\n\n## 3. Social Factors\n\n- **Demographics**: [Examine the demographics and how they may influence the project/product's market.]\n- **Cultural Trends**: [Analyze current cultural trends and their potential impact on demand.]\n- **Lifestyle Changes**: [Consider lifestyle changes and their implications for the project/product.]\n- **Consumer Attitudes**: [Assess consumer attitudes and behaviors and how they might affect the project/product.]\n\n## 4. Technological Factors\n\n- **Technological Advancements**: [Identify technological advancements and their potential to impact the project/product.]\n- **R&D Activity**: [Evaluate the sector's level of research and development and its influence.]\n- **Automation**: [Assess the role",
+      "category": "Research & Analysis",
+      "tags": [
+        "PESTEL",
+        "market analysis",
+        "strategy"
+      ],
+      "createdAt": "2026-02-23T03:14:11.691Z",
+      "useCount": 0,
+      "source": "github.com/deanpeters/product-manager-prompts"
+    },
+    {
+      "id": "pm-9",
+      "title": "Strategic Scrum Team Session Kickoff",
+      "prompt": "# strategic-scrum-team-session-kickoff.md\n\n\n## Scrum Team Strategy Session Kickoff\n\nHello, AI Assistant! As we embark on this new initiative, we're looking to scaffold a robust scrum team strategy that incorporates key insights from leading industry experts:\n\n### Your Point of View (as the AI Assistant & System)\n\nPlease think like a strategic agile product owner who incorporates the combined wisdom of the following 7 influential figures, each along our 7 strategic pillars that we use to scaffold and shape our scrum team strategy:\n\n1. **Product Vision Alignment**: Inspired by Marty Cagan and April Dunford, develop a unified vision that resonates with the target audience and differentiates the product in the market.\n2. **Collaborative Mindset**: Drawing on Jardena London's ethos, foster a team environment where diverse perspectives drive innovative solutions.\n3. **Agility Embrace**: Following Jeff Sutherland's principles, prioritize adaptability and responsiveness to change.\n4. **Value Delivery Focus**: With guidance from Melissa Perri, center the strategy on delivering maximum value to customers.\n5. **Self-Organization Empowerment**: In line with Alistair Cockburn's Heart of Agile, empower team members to take ownership and make decisions.\n6. **Continuous Learning & Discovery**: Emphasizing Teresa Torres's approach, cultivate a culture of ongoing discovery and improvement.\n7. **Go-to-Market Success**: Deliver this product incorporating April Dunford's product positioning wisdom.\n\n### Your Task\n\nTo get started, we need to answer the following questions to provide the necessary context:\n\n1. **Initiative Description**: What is the new initiative or underserved need we're focusing on in this session?\n2. **Target Persona Insights**: Who is this initiative's primary persona? What are their key characteristics and needs?\n3. **Job-to-be-Done**: What job is the persona trying to get done, and what obstacles get in their way?\n4. **Business Outcomes**: How does this initiative",
+      "category": "Product & Strategy",
+      "tags": [
+        "scrum",
+        "agile",
+        "team",
+        "sprint"
+      ],
+      "createdAt": "2026-02-23T03:14:11.691Z",
+      "useCount": 0,
+      "source": "github.com/deanpeters/product-manager-prompts"
+    },
+    {
+      "id": "pm-10",
+      "title": "User Story Mapping",
+      "prompt": "# user-story-mapping.md\n\n\nMarkdown\n## User Story Map Template\n\n### Who\n\n#### Segment:\n\n- [Specify the target segment here]\n\n#### Persona:\n\n- [Describe the persona and their key characteristics here]\n\n### Backbone\n\n#### Narrative:\n\n- [Insert the concise narrative of the persona’s objective here]\n\n#### Activities:\n\n1. [Describe Activity 1]\n2. [Describe Activity 2]\n3. [Continue as necessary for up to 5 activities]\n\n#### Steps:\n\nFor [Activity 1]:\n- Step 1: [Detail Step 1 for Activity 1]\n- Step 2: [Detail Step 2 for Activity 1]\n... [Continue for 3 to 5 steps per activity]\n\n#### Tasks:\n\nFor [Activity 1, Step 1]:\n- Task 1: [Detail Task 1 for Step 1 of Activity 1]\n- Task 2: [Detail Task 2 for Step 1 of Activity 1]\n... [Continue for 5 to 7 tasks per step]",
+      "category": "Product & Strategy",
+      "tags": [
+        "user story mapping",
+        "agile",
+        "backlog"
+      ],
+      "createdAt": "2026-02-23T03:14:11.691Z",
+      "useCount": 0,
+      "source": "github.com/deanpeters/product-manager-prompts"
+    },
+    {
+      "id": "pm-11",
+      "title": "User Story Splitting",
+      "prompt": "# user-story-splitting-prompt-template.md\n\n\n## User Story Splitting Case Logic:\n1. Does it contain multiple workflow steps? If yes, split the story along workflow steps.\n2. Does it introduce business rule variations? If yes, split the story along business rule variations.\n3. Does it demonstrate variations in data? If yes, split the story along with variations in data.\n4. Does it possess complex acceptance criteria? If yes, split the story along discrete \"when\" actions or \"then\" outcomes.\n5. Does it require a major effort to build? If yes, split the story along major effort milestones.\n6. Does it incorporate external dependencies? If yes, split the story along external dependencies.\n7. Does it take a significant DevOps effort? If yes, split the story along the key DevOps steps.\n8. If none of the above criteria apply, consider using Tiny Acts of Discovery (TADs) to unpack unknowns, assumptions, and complexity and refine the story accordingly.\n\n## User Story Format Prompt Template:\n\n_The following format combines the Mike Cohn User Story Format augmented by a Gherkin-style acceptance criterion._\n\n### User Story [User Story Number ID]:\n\n- **Summary**: [brief, memorable, human-readable story title with how we're providing value to the persona]\n\n#### Use Case:\n- **As a** [user name if available, otherwise user persona, otherwise user role or title],\n- **I want to** [action user takes to get to outcome],\n- **so that** [desired outcome by the user].\n\n#### Acceptance Criteria:\n\n(_Note 1: Givens are pre-conditions, so don't feel limited to just 3 Givens._\n _Note 2: There should only be one \"When\" and one \"Then\" statement that aligns with the use case's \"I want to\" action and \"so that\" outcome._\n _Note 3: Multiple \"whens\" and \"thens\" are a good indicator a story must be split._)\n\n- **Scenario**: [brief, human-readable user scenario with how we're providing value to the persona]\n- **Given**: [Initial context or precondition]\n- **and Given**: [additional context or preconditions",
+      "category": "Product & Strategy",
+      "tags": [
+        "user stories",
+        "splitting",
+        "refinement"
+      ],
+      "createdAt": "2026-02-23T03:14:11.691Z",
+      "useCount": 0,
+      "source": "github.com/deanpeters/product-manager-prompts"
+    },
+    {
+      "id": "pm-12",
+      "title": "Company Profile & Executive Insights Research",
+      "prompt": "## Executive Insights Company Profile Template\n\n\n\n### Company Overview\n\n**Basic Information:**\n* **Name:** [Insert the official name of the company]\n* **Headquarters:** [Insert the location of the headquarters]\n* **Industry:** [List the primary industries the company operates within]\n\n**Brief History:**\n* [Highlight the key historical milestones that shaped the company's current market position]\n\n### Executive Quotes on Strategic Vision\n\n**Quote from the CEO:**\n* [Provide a recent quote from the CEO discussing the company's long-term vision and market approach]\n\n**Quote from the COO:**\n* [Provide a recent quote from the COO focusing on operational strategies and challenges]\n\n**Quote from the VP of Product Management:**\n* [Provide a recent quote from the VP of Product Management detailing the product strategy and innovation focus]\n\n**Quote from the Group Product Manager:**\n* [Provide a recent quote from the Group Product Manager discussing specific product initiatives and customer engagement strategies]\n\n### Detailed Product Insights\n\n**Product Strategy Overview:**\n* [Describe the overall product strategy, emphasizing integration of market needs with technological capabilities]\n\n**Recent Product Launches and Innovations:**\n* [List and describe recent product launches and innovations, noting their impact on the company’s market position]\n\n### Transformation Strategies and Initiatives\n\n**Digital Transformation:**\n* [Describe the company's overall approach to digital transformation, emphasizing the integration of cutting-edge technology with existing business processes and goals]\n\n**AI Transformation:**\n* [Explain how the company is incorporating AI into its core processes, product offerings, and market positioning]\n\n**Agile Transformation:**\n* [Detail the company's adoption of Agile methodologies, highlighting specific improvements in cross-functional collaboration, project management, and product delivery]\n\n### Organizational Impact of Product Management\n\n**Role of Pr",
+      "category": "Research & Analysis",
+      "tags": [
+        "company research",
+        "competitive intelligence",
+        "executive"
+      ],
+      "createdAt": "2026-02-23T03:14:11.691Z",
+      "useCount": 0,
+      "source": "github.com/deanpeters/product-manager-prompts"
+    },
+    {
+      "id": "pm-13",
+      "title": "Recommendation Canvas",
+      "prompt": "# recommendation-canvas-template.md\n\n\n# AI Recommendation Canvas Template\n\n## Product Name\n- [Name of the AI product or service]\n\n## Business Outcome\n\n\n- [Direction][Metric][Outcome][Context from persona's point-of-view][Acceptance criteria]\n\n## Product Outcome\n\n- [Direction][Metric][Outcome][Context from persona's point-of-view][Acceptance criteria]\n\n## The Problem Statement\n \n### Problem Statement Narrative\n- [Persona description]\n- [Based on the Problem Statement  Components Worksheet (see comment section immediately above), write 2 or 3 sentences that tell the persona's story from their point-of-view]\n\n\n## Solution Hypothesis\n\n### Hypothesis Statement\n**If we** [an action or a solution on behalf of the target persona]\n- **for** [the target persona of the action or solution]\n- **Then we will** [attain or achieve a desirable outcome or job-to-be-done for the target persona].\n\n### Tiny Acts of Discovery\n**We will test our assumption by:**\n- [Small, measurable experiment of discovery focused on product viability]\n- [Small, measurable experiment or discovery focused on customer value]\n- [Add more experiments as necessary]\n\n### Proof-of-Life\n\n**We know our hypothesis is valid if within** [timeframe in days or weeks]\n**we observe:**\n- [Desirable quantitative measurable outcome]\n- [Desirable qualitative measurable outcome]\n- [Add more outcomes as necessary]\n\n## Positioning Statement\n\n### Value Proposition\n\n**For** [target customer/user persona]\n- **that need** [statement of the user's underserved need]\n- [name of the AI product or service]\n- **is a** [definition of the product category]\n- **that** [statement of benefit to the user, focusing on outcomes].\n\n### Differentiation Statement\n- **Unlike** [primary competitor or competitive area/market/arena],\n- [name of the AI product or service]\n- **provides** [how the product or service is uniquely differentiated, focusing on outcomes].\n\n## Assumptions & Unknowns\n- **[Assumption or unknown name/title 1]** - [Assumption or unk",
+      "category": "Product & Strategy",
+      "tags": [
+        "recommendation",
+        "canvas",
+        "decision"
+      ],
+      "createdAt": "2026-02-23T03:14:11.691Z",
+      "useCount": 0,
+      "source": "github.com/deanpeters/product-manager-prompts"
+    },
+    {
+      "id": "pm-14",
+      "title": "Futuristic Product FAQ",
+      "prompt": "# futuristic-product-faq.md\n\n\n## Product Context\n\n\n1. [Describe the nature of the product/service]\n2. [List the target persona]\n3. [Cite Key features or unique selling points]\n4. [Quote the company's mission, values, or background]\n5. [Enumerate specific goals, challenges, or problems addressed by the product/service]\n6. [Add additional data, information, artifacts, or articles]\n7. [List the target audiences]\n\n## FAQ Template\n\n### 1. General Information\n   - *Q1: What is [Product/Service/Project]?*\n     - A1: [Provide a brief and clear description of the product/service/project.]\n   - *Q2: Why was [Product/Service/Project] developed?*\n     - A2: [Explain the purpose and motivation behind the development.]\n   - *Q3: How can I stay updated on [Product/Service/Project] news and developments?*\n     - A3: [Information on newsletters, updates, or where to find the latest information.]\n\n### 2. Key Stakeholders\n   - *Q1: How does [Product/Service/Project] align with our company's overall strategy?*\n     - A1: [Describe how it fits into the broader strategic goals of the company.]\n   - *Q2: What are the expected outcomes and benefits for the company from [Product/Service/Project]?*\n     - A2: [Outline the anticipated benefits and outcomes for the company.]\n   - *Q3: How can stakeholders contribute to or influence the direction of [Product/Service/Project]?*\n     - A3: [Provide ways for stakeholders to offer feedback or get involved.]\n\n### 3. Potential Customers\n   - *Q1: How does [Product/Service/Project] address my needs?*\n     - A1: [Discuss how it solves problems or meets the needs of potential customers.]\n   - *Q2: What makes [Product/Service/Project] different from competing products/services?*\n     - A2: [Highlight unique selling points or differentiators.]\n   - *Q3: How can I trial or learn more about [Product/Service/Project]?*\n     - A3: [Provide information on trials, demos, or informational resources.]\n\n### 4. Sales & Marketing\n   - *Q1: What are the key selling p",
+      "category": "Product & Strategy",
+      "tags": [
+        "FAQ",
+        "product vision",
+        "storytelling"
+      ],
+      "createdAt": "2026-02-23T03:14:11.691Z",
+      "useCount": 0,
+      "source": "github.com/deanpeters/product-manager-prompts"
+    },
+    {
+      "id": "pm-15",
+      "title": "End-of-Life Product Messaging",
+      "prompt": "# eol-for-a-product-message.md\n\n---\n## EOL Messaging Template\n\n### Product Transition Narrative\n\n**We are**: [Describe the company and its relationship to the product being phased out]\n- [Key point about the company's commitment to customers]\n- [Key point about the company's product evolution]\n- [Key point about the company's future vision]\n\n**Announcing**: \n- [A single sentence that clearly states the EOL of the product and introduces its replacement]\n\n**Because**: \n- [Describe the reasons for the EOL decision, focusing on benefits to the customer]\n- [Reason 1: e.g., technological advancements]\n- [Reason 2: e.g., improved performance]\n- [Reason 3: e.g., better alignment with customer needs]\n\n**Which means for you**: \n- [Describe the impact and benefits from the customer's perspective]\n\n### Current Product Context\n\n**Our product** [name of the product being discontinued]\n- **is a** [brief description of the product and its primary function]\n- **that has served** [target customer/user] for [duration or timeframe]\n- **by providing** [key benefits or solutions the product offered]\n\n### Customer Impact\n\n**We understand that this may affect you by**:\n- [Potential impact 1 on customer operations or processes]\n- [Potential impact 2 on customer operations or processes]\n- [Potential impact 3 on customer operations or processes (if applicable)]\n\n### Transition Solution\n\n**For** [target customer/user affected by the EOL]\n- **that currently use** [name of the product being phased out]\n- [name of the replacement product]\n- **is a** [definition of the replacement product category]\n- **that** [statement of benefit to the user, focusing on continuity and improvements].\n\n### Differentiation and Continuity\n\n- **Like** [product being phased out],\n- [name of the replacement product]\n- **provides** [how the replacement maintains key benefits of the old product]\n- **while also offering** [new benefits or improvements].\n\n### Support and Next Steps\n\n**To ensure a smooth transition, we will",
+      "category": "Communication",
+      "tags": [
+        "EOL",
+        "sunset",
+        "product comms"
+      ],
+      "createdAt": "2026-02-23T03:14:11.691Z",
+      "useCount": 0,
+      "source": "github.com/deanpeters/product-manager-prompts"
+    },
+    {
+      "id": "pm-16",
+      "title": "Visionary Press Release",
+      "prompt": "# visionary-press-release.md\n\n\n## Product Context\n\n\n1. [Describe the nature of the product/service]\n2. [List the target persona]\n3. [Cite Key features or unique selling points]\n4. [Quote the company's mission, values, or background]\n5. [Enumerate specific goals, challenges, or problems addressed by the product/service]\n6. [Add additional data, information, artifacts, or articles]\n7. [List the target audiences]\n\n## Press Release Template\n\n\n\"[New Development Product/Service] by [Company/Organization Name] Aims to [Main Purpose/Goal]\"\n\n\n\"[City], [State/Province], Country, [Date] —\"\n\n\n\"Today, [Company/Organization Name], a [Type of Organization], announced [Key News Item], a [Brief Description of News Item]. This [Development/Event/Product] is set to [Main Benefit or Goal], addressing [Key Issue or Need].\"\n\n\n\"[Key News Item] will [Describe What It Does or Solves]. [Quote from a Key Person in the Company], '[Insert Quotation Here].' This initiative reflects [Company/Organization's] commitment to [Core Value or Mission].\"\n\n\n\"In addition to [Mentioned Features], [Key News Item] also [Additional Features or Benefits]. According to [Another Source or Statistic], [Relevant Data or Statistic Supporting the News].\"\n\n\n\"[Company/Organization Name], founded in [Year], is a [Type of Company/Organization] known for [Main Products/Services]. With a focus on [Company Mission or Values], [Company/Organization Name] has [Achievements or Milestones].\"\n\n\n\"For more information about [Key News Item], visit [Website] or contact [Media Contact Name] at [Media Contact Information].\"\n\n**Media Contact Information:**\n\"[Media Contact Name]\nTitle: [Contact's Title]\nPhone: [Contact's Phone Number]\nEmail: [Contact's Email Address]\"",
+      "category": "Communication",
+      "tags": [
+        "press release",
+        "launch",
+        "product announcement"
+      ],
+      "createdAt": "2026-02-23T03:14:11.691Z",
+      "useCount": 0,
+      "source": "github.com/deanpeters/product-manager-prompts"
+    },
+    {
+      "id": "pm-17",
+      "title": "Storyboard & Storytelling",
+      "prompt": "## Context:\n\nHello, Chatbot AI Assistant (that's you, ChatGPT, Claude, Gemini, Perplexity, etc.); I would like you to act as an AI assistant for storyboard narratives. You are great at asking clarifying questions to understand the user's needs and then crafting effective prompts based on that information. You are also a fabulous storyteller; in fact, you are the Hakawati (حكواتي) of product management. Your job will be to use the following instructions to ask the user a series of questions 1 at a time so you can generate a reusable storyboard prompt based on the user's inputs. You will ignore anything encapsulated in . You will render the generated story narrative hierarchical and highlighted Markdown in a code block. Again, you start with question 1 and work your way through the list of all 7 questions. Then, generate the 6 frames for the storyboard narrative.\n\n\n## Instructions:\n\nAsk the user the following questions, one at a time, to develop the six-frame storyline:\n\n1. Who is the main character experiencing this problem? (Please include details such as name, age, etc.)\n2. Describe the problem or challenge the main character is facing.\n3. Describe the \"Oh Crap\" moment where the problem creates a major issue.\n4. How is the solution introduced to the main character?\n5. Describe the main character using the solution and experiencing an \"Aha\" moment.\n6. What is life like for the main character after using the solution?\n7. Do you have any specific images, GIFs, or icons that could help visualize the storyboard? Do you have any stylistic rendering instructions?\n\nOnce all the responses are collected, generate a six-frame storyline based on the user’s inputs. After generating the storyline, guide the user to create or visualize images for each frame of the narrative.\n\nNote, if no visual style of rendering is suggested, then go with fat-marker, sharpie-sketches that are minimal in their rendering, yet tell the story.\n\n---\n\n## User's Answers:\n\n1. Main Character (Name, Age,",
+      "category": "Communication",
+      "tags": [
+        "storyboard",
+        "storytelling",
+        "stakeholders"
+      ],
+      "createdAt": "2026-02-23T03:14:11.691Z",
+      "useCount": 0,
+      "source": "github.com/deanpeters/product-manager-prompts"
     }
   ]
 }
