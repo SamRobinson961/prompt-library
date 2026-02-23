@@ -6,7 +6,10 @@
       "title": "Structured Task Breakdown",
       "prompt": "Break this task into clear steps with dependencies noted. For each step include: what needs to happen, what success looks like, and any risks or blockers.",
       "category": "Product & Strategy",
-      "tags": ["planning", "tasks"],
+      "tags": [
+        "planning",
+        "tasks"
+      ],
       "createdAt": "2026-02-23T02:03:03.101Z",
       "useCount": 0
     },
@@ -15,7 +18,10 @@
       "title": "Code Review Request",
       "prompt": "Review this code for: correctness, edge cases, performance issues, readability, and any security concerns. Be specific about line numbers and explain your reasoning.",
       "category": "Code & Technical",
-      "tags": ["code", "review"],
+      "tags": [
+        "code",
+        "review"
+      ],
       "createdAt": "2026-02-23T02:03:03.101Z",
       "useCount": 0
     },
@@ -24,8 +30,110 @@
       "title": "Exec-Ready Summary",
       "prompt": "Summarise this for a senior executive. Lead with the key decision or action required. One paragraph max. No jargon, no fluff.",
       "category": "Summarisation",
-      "tags": ["executive", "brief"],
+      "tags": [
+        "executive",
+        "brief"
+      ],
       "createdAt": "2026-02-23T02:03:03.101Z",
+      "useCount": 0
+    },
+    {
+      "id": "sm-1",
+      "title": "Niche Intelligence and Audience Mapping",
+      "prompt": "As a senior social media strategist with over 10 years of experience managing brands across various industries, analyse the [insert niche] niche and identify the most profitable audience segments, their biggest frustrations, emotional triggers, content consumption habits, and what types of posts motivate them to follow, engage, and buy. Present this information in a clear and actionable profile that allows me to create content around it.",
+      "category": "Social Media",
+      "tags": [
+        "audience",
+        "niche",
+        "strategy",
+        "research"
+      ],
+      "createdAt": "2026-02-23T02:15:47.987Z",
+      "useCount": 0
+    },
+    {
+      "id": "sm-2",
+      "title": "Brand Positioning and Social Media Identity",
+      "prompt": "Act as a brand positioning expert and help me design a powerful social media identity in the [insert niche] niche. Define what my brand represents, the unique perspective that sets me apart from the competition, my brand voice and tone, visual aesthetic guidelines, and the core message that will deeply resonate with my target audience.",
+      "category": "Social Media",
+      "tags": [
+        "brand",
+        "positioning",
+        "identity",
+        "strategy"
+      ],
+      "createdAt": "2026-02-23T02:15:47.987Z",
+      "useCount": 0
+    },
+    {
+      "id": "sm-3",
+      "title": "Content Pillar Architecture",
+      "prompt": "Based on my niche [insert niche] and target audience [describe], create five content pillars that drive maximum engagement. For each pillar, explain: why it works, its psychology, ten post ideas, and how to balance educational, entertaining, and promotional content.",
+      "category": "Social Media",
+      "tags": [
+        "content",
+        "pillars",
+        "planning",
+        "engagement"
+      ],
+      "createdAt": "2026-02-23T02:15:47.987Z",
+      "useCount": 0
+    },
+    {
+      "id": "sm-4",
+      "title": "30-Day Content Calendar Generator",
+      "prompt": "Act as my content calendar manager. Create a complete 30-day posting calendar for [platform]. Include: daily posting concepts, optimal posting times based on audience behaviour, a variety of content formats (carousels, reels, stories), hooks for each post, and strategic CTAs. Make it ready to copy and paste.",
+      "category": "Social Media",
+      "tags": [
+        "content calendar",
+        "scheduling",
+        "planning",
+        "30-day"
+      ],
+      "createdAt": "2026-02-23T02:15:47.987Z",
+      "useCount": 0
+    },
+    {
+      "id": "sm-5",
+      "title": "Viral Hook Formula Creator",
+      "prompt": "You're a copywriter who has created hooks for posts that have garnered millions of views. Analyse viral content in [niche] and create 50 hook templates that I can customise. Categorise them by: curiosity, controversy, narrative, lists, and powerful statements. Make each one impactful.",
+      "category": "Social Media",
+      "tags": [
+        "hooks",
+        "copywriting",
+        "viral",
+        "templates"
+      ],
+      "createdAt": "2026-02-23T02:15:47.987Z",
+      "useCount": 0
+    },
+    {
+      "id": "sm-6",
+      "title": "Engagement and Community Building Strategy",
+      "prompt": "Act as a community management expert. Design my engagement strategy: how to respond to comments authentically, initiate direct message conversations that strengthen relationships, create collaboration templates, turn followers into loyal fans, and develop a daily engagement routine that takes less than 30 minutes.",
+      "category": "Social Media",
+      "tags": [
+        "engagement",
+        "community",
+        "DMs",
+        "comments"
+      ],
+      "createdAt": "2026-02-23T02:15:47.987Z",
+      "useCount": 0
+    },
+    {
+      "id": "sm-7",
+      "title": "Analytics Interpreter and Growth Optimizer",
+      "prompt": "You are a social media data analyst. Based on these metrics [paste your statistics], identify: what works and why, what isn't performing well and how to fix it, the content gaps I need to fill, the optimal posting frequency, and a 90-day growth roadmap with specific KPIs to achieve.",
+      "category": "Social Media",
+      "tags": [
+        "analytics",
+        "growth",
+        "data",
+        "KPIs",
+        "roadmap"
+      ],
+      "createdAt": "2026-02-23T02:15:47.987Z",
       "useCount": 0
     }
   ]
